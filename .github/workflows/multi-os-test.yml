@@ -15,8 +15,5 @@ jobs:
     name: Second job to run
     runs-on: windows-latest
     steps:
-      - name: Step one of job2
-        uses: actions/checkout@v4
       - name: Step two of job2
         run: echo "Testing on Windows..."
-        
